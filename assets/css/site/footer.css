@@ -95,3 +95,15 @@
 .theme-light .theme-icon-light {
     display: block;
 }
+
+.social ul {
+    list-style: none;
+}
+.social ul li {
+    display: inline-block;
+}
+.social ul li svg {
+    width: 36px;
+    color: #999 !important;
+}
+  
