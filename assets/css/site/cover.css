@@ -17,7 +17,11 @@
 }
 
 .cover-icon-image {
-    width: 150px;
+    width: 200px;
+}
+
+.cover-icon-rounded {
+    border-radius: 50%;
 }
 
 .cover-icon-image.white {
