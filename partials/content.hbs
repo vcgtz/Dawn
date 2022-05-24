@@ -48,16 +48,6 @@
     {{#is "post"}}
         <footer class="single-footer container medium">
             <div class="single-footer-left">
-                {{#prev_post}}
-                    <div class="navigation navigation-previous">
-                        <a class="navigation-link" href="{{url}}"
-                            aria-label="Previous post">
-                            <svg class="icon navigation-icon">
-                                <use xlink:href="#arrow-left"></use>
-                            </svg>
-                        </a>
-                    </div>
-                {{/prev_post}}
             </div>
             <div class="single-footer-middle">
                 {{#if @custom.show_author}}
@@ -90,16 +80,6 @@
                 {{/if}}
             </div>
             <div class="single-footer-right">
-                {{#next_post}}
-                    <div class="navigation navigation-next">
-                        <a class="navigation-link" href="{{url}}"
-                            aria-label="Next post">
-                            <svg class="icon navigation-icon">
-                                <use xlink:href="#arrow-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                {{/next_post}}
             </div>
         </footer>
     {{/is}}

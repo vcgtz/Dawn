@@ -1,0 +1,20 @@
+{{!< default}}
+
+{{#contentFor "title"}}{{@site.title}} - Blog{{/contentFor}}
+
+<div class="content-area">
+    <main class="site-main">
+        <article class="single">
+            <header class="single-header kg-canvas">
+                <h1 class="single-title">Mis ultimos posts</h1>
+            </header>
+        </article>
+
+        <div class="post-feed container medium">
+            {{#foreach posts}}
+                {{> "loop"}}
+            {{/foreach}}
+        </div>
+        {{pagination}}
+    </main>
+</div>
