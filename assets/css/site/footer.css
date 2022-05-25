@@ -98,6 +98,7 @@
 
 .social ul {
     list-style: none;
+    padding-left: 0px;
 }
 .social ul li {
     display: inline-block;
