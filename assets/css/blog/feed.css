@@ -86,3 +86,22 @@
     transition: transform 0.2s var(--animation-base);
     transform: translateX(2rem);
 }
+
+.feed-tags {
+    display: block;
+    font-size: smaller;
+    color: var(--darker-gray-color);
+    padding-bottom: 5px;
+}
+
+.feed-tags a {
+    color: var(--secondary-text-color) !important;
+}
+
+.feed-post-item {
+    border-top: 1px solid var(--light-gray-color);
+}
+
+.feed-post-item:first-child {
+    border-top: none;
+}
